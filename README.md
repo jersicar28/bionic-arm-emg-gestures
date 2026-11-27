@@ -16,7 +16,7 @@ EMG signal processing and gesture classification for a bionic arm project. It in
   - Models: Random Forest (100 trees) and SVM (RBF, C = 10). Outputs a confusion matrix and the top 20 Random Forest feature importances.
   - Ends with planning notes for a model that accounts for electrode placement.
 
-Results: TODO: confirm. The code prints accuracy at run time but stores no results. All windows come from one participant and are split randomly, so test accuracy is likely optimistic.
+Results:  The code prints accuracy at run time but stores no results. All windows come from one participant and are split randomly, so test accuracy is likely optimistic.
 
 ## Tools
 Python, NumPy, SciPy, pandas, scikit-learn, Matplotlib, wfdb, bleak (Bluetooth LE), Arduino + MyoWare 2.0 sensor, Google Colab.
